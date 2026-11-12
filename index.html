@@ -242,11 +242,12 @@
                     scales: {
                         x: {
                             title: { display: true, text: 'Nota no IDEB 2025' },
-                            min: 4.0, max: 9.0
+                            suggestedMin: 4.0, suggestedMax: 9.0
                         },
                         y: {
                             title: { display: true, text: 'Gasto Mensal por Aluno (R$)' },
-                            min: 1500, max: 7000
+                            beginAtZero: false,
+                                grace: '10%'
                         }
                     }
                 }
